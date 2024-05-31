@@ -8,7 +8,7 @@ const startServer = () => {
 
   const PORT = process.env.PORT || 2201;
   googleRoutes(app);
-  //   appleRoutes(app);
+    appleRoutes(app);
 
   app.listen(PORT, () => console.log(`App listening at port ${PORT}`));
 };

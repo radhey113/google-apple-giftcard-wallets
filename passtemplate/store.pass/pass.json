@@ -1,0 +1,86 @@
+{
+  "formatVersion" : 2,
+  "passTypeIdentifier" : "pass.co.99minds.giftcard.dev",
+  "serialNumber" : "p69f2k",
+  "teamIdentifier" : "PB886XLVZZ",
+  "webServiceURL" : "https://example.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "logoText": "Logo",
+  "locations" : [
+    {
+      "longitude" : -122.3748889,
+      "latitude" : 37.6189722,
+      "message": "YRSY",
+      "relevantText": "relevantText"
+    }
+  ],
+ "barcodes" : [
+    {
+      "message" : "123456789 ABCD 123 EFGH 456 IJKL 789 MNOP",
+      "format" : "PKBarcodeFormatQR",
+      "messageEncoding" : "iso-8859-1",
+      "altText": "123456789 ABCD 123 EFGH 456 IJKL 789 MNOP"
+    }
+  ],
+  "barcode": {
+      "message" : "123456789 ABCD 123 EFGH 456 IJKL 789 MNOP",
+      "format" : "PKBarcodeFormatQR",
+      "messageEncoding" : "iso-8859-1",
+      "altText": "123456789 ABCD 123 EFGH 456 IJKL 789 MNOP"
+    },
+  "organizationName" : "Organic Produce",
+  "description" : "99minds Loyalty Card",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(9, 9, 90)",
+  "labelColor" : "rgb(255, 255, 255)",
+  "storeCard" : {
+    "transitType" : "PKTransitTypeAir",
+    "headerFields" : [
+      {
+        "label" : "STORECREDIT",
+        "key" : "storeCredit",
+        "value" : "2021",
+        "changeMessage" : "Gate changed to %@."
+      }
+    ],
+    
+    "primaryFields" : [],
+    "secondaryFields" : [],
+    "auxiliaryFields" : [
+      {
+        "key" : "member",
+        "label" : "MEMBER",
+        "value" : "Radhey Shyam"
+      },
+      {
+        "key" : "tier",
+        "label" : "TIER",
+        "value" : "VIP Tier"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "pass-link",
+        "label": "Follow me on instagram",
+        "attributedValue": "<a href='https://instagram.com/rdhey'>Instagram Profile</a>",
+        "value": "https://instagram.com/rdhey"
+      },
+      {     
+        "key" : "website",
+        "label" : "Back Image",
+        "attributedValue" : "<img alt='Track image' src='https://99minds-staging-assets.s3.amazonaws.com/merchants/vendor_439d4de31eb60bf768/images/Reward_Program-1716369294.png' />",
+        "value": "https://99minds-staging-assets.s3.amazonaws.com/merchants/vendor_439d4de31eb60bf768/images/Reward_Program-1716369294.png"
+      },
+      {
+            "key" : "customer-service",
+            "label" : "Customer service",
+            "value" : "(800) 555-0199"
+        },
+        {
+            "key" : "terms",
+            "label" : "Terms and Conditions",
+            "value" : "O Fortuna velut luna statu variabilis, semper crescis aut decrescis; vita detestabilis nunc obdurat et tunc curat ludo mentis aciem, egestatem, potestatem dissolvit ut glaciem.\n\n Sors immanis et inanis, rota tu volubilis, status malus, vana salus semper dissolubilis, obumbrata et velata michi quoque niteris; nunc per ludum dorsum nudum fero tui sceleris.\n\n Sors salutis et virtutis michi nunc contraria, est affectus et defectus semper in angaria.  Hac in hora sine mora corde pulsum tangite; quod per sortem sternit fortem, mecum omnes plangite!"
+        }
+    ]
+  }
+}

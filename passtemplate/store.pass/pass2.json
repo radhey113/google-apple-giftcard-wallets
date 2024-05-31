@@ -1,0 +1,70 @@
+{
+  "passTypeIdentifier" : "pass.co.99minds.giftcard.dev",
+  "formatVersion" : 1,
+  "teamIdentifier" : "PB886XLVZZ",
+  "organizationName" : "Passbook Example Company",
+  "serialNumber" : "0000002",
+  "description" : "Staff Pass for Employee Number 001",
+  "associatedStoreIdentifiers" : [
+  	 1313122
+  ],
+  "locations" : [],
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(9, 9, 90)",
+  "labelColor" : "rgb(255, 255, 255)",
+  "logoText" : "Company Staff ID",
+  "barcode" : {
+  		"format" : "PKBarcodeFormatQR",
+  		"message" : "0000002",
+  		"messageEncoding" : "iso-8859-1",
+  		"altText" : "Staff ID 0000001"
+   },
+  "generic" : {
+  	"headerFields" : [
+  		{
+  			"key" : "staffNumber",
+        	"label" : "Staff Number",
+        	"value" : "001"
+  		}
+  	],
+    "primaryFields" : [
+      {
+        "key" : "staffName",
+        "label" : "Name",
+        "value" : "Peter Brooke"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "telephoneExt",
+        "label" : "Extension",
+        "value" : "9779"
+      },
+      {
+        "key" : "jobTitle",
+        "label" : "Job Title",
+        "value" : "Chief Pass Creator"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "expiryDate",
+        "dateStyle" : "PKDateStyleShort",
+        "label" : "Expiry Date",
+        "value" : "2013-12-31T00:00-23:59"
+      }
+    ],
+    "backFields" : [
+      {
+        "key" : "managersName",
+        "label" : "Manager's Name",
+        "value" : "Paul Bailey"
+      },
+      {
+        "key" : "managersExt",
+        "label" : "Manager's Extension",
+        "value" : "9673"
+      }
+    ]
+  }
+}
