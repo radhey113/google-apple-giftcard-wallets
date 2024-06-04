@@ -3,7 +3,9 @@
   "passTypeIdentifier" : "pass.co.99minds.giftcard.dev",
   "serialNumber" : "p69f2k",
   "teamIdentifier" : "PB886XLVZZ",
-  "webServiceURL" : "https://example.com/passes/",
+  "webServiceURL" : "https://e649-27-255-164-30.ngrok-free.app/apple/notification/cb Web server url for deviceLibraryIdentifier",
+
+  
   "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
   "logoText": "Logo",
   "locations" : [

@@ -13,5 +13,9 @@ export default (app) => {
 
   app.post("/apple/giftcard/object", apple.createGiftcardObj);
   app.put("/apple/giftcard/object/:objectId", apple.updateGiftcardObj);
+  app.get("/apple/notification/cb", (req, res) => {
+    console.log("reached");
+    return res.jsonp({ status: true });
+  });
   return;
 };
